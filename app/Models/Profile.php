@@ -14,8 +14,6 @@ class Profile extends Model
         'username',
         'firstname',
         'lastname',
-        'picture',
-        'picturename',
         'password',
     ];
 }
