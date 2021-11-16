@@ -1,7 +1,7 @@
 <template>
     <div>
         Hello {{ firstname }} {{ lastname }}<br> <br>
-        <button class="btn btn-primary" @click="$router.push('/books')">Proflie</button> <br><br>
+        <button class="btn btn-primary" @click="$router.push('/profiles')">Profile</button> <br><br>
         <button class="btn btn-primary" @click="logout">Logout</button>
     </div>
 </template>

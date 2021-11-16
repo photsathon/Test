@@ -36,8 +36,10 @@ class UserController extends Controller
             $user->firstname = $request->firstname;
             $user->lastname = $request->lastname;
             $user->password = Hash::make($request->password);
+           
+                
             $user->save();
-
+            
             $success = true;
             $message = 'User register successfully';
         } catch (\Illuminate\Database\QueryException $ex) {

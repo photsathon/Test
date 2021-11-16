@@ -5,9 +5,8 @@ import Register from '../pages/Register.vue';
 import Login from '../pages/Login.vue';
 import Dashboard from '../pages/Dashboard.vue';
 
-import Books from '../components/Books.vue';
-import AddBook from '../components/AddBook.vue';
-import EditBook from '../components/EditBook.vue';
+import Profiles from '../components/Profiles.vue';
+import Editprofile from '../components/Editprofile.vue';
 
 export const routes = [
     {
@@ -31,19 +30,14 @@ export const routes = [
         component: Dashboard
     },
     {
-        name: 'books',
-        path: '/books',
-        component: Books
+        name: 'profiles',
+        path: '/profiles',
+        component: Profiles
     },
     {
-        name: 'addbook',
-        path: '/books/add',
-        component: AddBook
-    },
-    {
-        name: 'editbook',
-        path: '/books/edit/:id',
-        component: EditBook
+        name: 'editprofile',
+        path: '/profiles/edit/:id',
+        component: Editprofile
     },
 ];
 
